@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pedra, Papel Tesoura</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+
+		<header>
+			
+		<h1> Pedra, Papel, Tesoura
+
+		</header>
+
+		<!-- Display de botões para salvar dados em Local Storage -->
+		<table border = "0" width="100%" align ="center">
+			<tr>
+			<td align="center">
+				<input type="button" class = "button2" value="Salvar" onClick="assignStorage()"> |
+				<input type="button" class = "button2" value="Limpar" onClick="clearStorage(), window.location.reload(true)">
+			</td>
+		</tr>
+		</table>
+
+	<!-- Display de pontuação -->
+
+	<div class="pontuacao">
+		<div id="jogador" class="badge">Jogador </div>
+		<div id="computador" class="badge">Computador </div>
+		<span id="pontosJogador">0</span>:<span id="pontosComputador">0</span>
+	</div>
+
+	<!-- Display de resultados -->
+
+	<div class = "resultado">
+		<br/>
+		<p></p>
+		<br/>
+	</div>
+
+	<!-- display de escolhas -->
+
+	<div class="escolhas"> 
+		<div class ="escolha" id="pedra">
+			<img src="imagens/pedra.png" alt="">
+		</div>
+		<div class ="escolha" id="papel">
+			<img src="imagens/papel.png" alt="">
+		</div>
+		<div class ="escolha" id="tesoura">
+			<img src="imagens/tesoura.png" alt="">
+		</div>
+	</div>
+
+	<p id="alert-msg"> Faça sua escolha! </p>
+
+
+	<div class = "jogo">
+		<br/>
+		<p></p>
+		<br/>
+	</div>
+
+	<footer class = "footer">
+		<address>
+				<p>Designed by: <a href="https://github.com/andressasouzaa">Andressa Oliveira</a></p>
+		</address>
+			
+	</footer>
+
+		<script src="app.js" charset="utf-8"></script>
+
+	</body>
+</html>
