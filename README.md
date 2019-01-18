@@ -1,7 +1,7 @@
 # Pedra-Papel-Tesoura
 
 Teste Prático
-Autor: Andressa Oliveira
+Autora: Andressa Oliveira
 
 ### Informações 
 
